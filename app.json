@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "moblie-task-manager",
     "slug": "moblie-task-manager",
     "version": "1.0.0",
@@ -8,6 +9,17 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
+=======
+    "name": "mobile-task-manager",
+    "slug": "mobile-task-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+>>>>>>> c15186b (ts + remove old code + new pages)
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,6 +28,7 @@
     },
     "android": {
       "adaptiveIcon": {
+<<<<<<< HEAD
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
@@ -27,5 +40,23 @@
       "expo-router",
       "expo-font"
     ]
+=======
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.mobiletaskmanager"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+>>>>>>> c15186b (ts + remove old code + new pages)
   }
 }
